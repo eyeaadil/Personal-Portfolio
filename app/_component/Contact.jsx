@@ -50,16 +50,17 @@ const Contact = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="text-center mb-8">
-        {/* <h4 className="text-3xl">03</h4> */}
         <h1 className="text-4xl md:text-6xl font-serif text-slate-200 mb-24">Contact Me</h1>
       </div>
 
       <div className="flex flex-col lg:flex-row lg:gap-8">
-        <div className=" ml-28 w-full lg:w-1/3 mb-8 lg:mb-0" data-aos="fade-up">
+        <div className="ml-4 lg:ml-28 w-full lg:w-1/3 mb-8 lg:mb-0" data-aos="fade-up">
           <h3 className="text-xl md:text-2xl font-serif text-slate-200 mb-4">Phone Number</h3>
           <p className="text-slate-300 mb-4">+91 7004590217</p>
           <h3 className="text-xl md:text-2xl font-serif text-slate-200 mb-4">Email</h3>
-          <p className="text-slate-300 mb-4"> <a href="mailto:madil9227583@gmail.com">madil9227583@gmail.com</a></p>
+          <p className="text-slate-300 mb-4">
+            <a href="mailto:madil9227583@gmail.com">madil9227583@gmail.com</a>
+          </p>
 
           <h3 className="text-xl md:text-2xl font-serif text-slate-200 mb-4">Social Network</h3>
           <ul className="flex space-x-4 mb-4">
@@ -70,7 +71,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="text-2xl text-slate-300"
               >
-                <FaLinkedin/>
+                <FaLinkedin />
               </a>
             </li>
             <li>
@@ -80,7 +81,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="text-2xl text-slate-300"
               >
-                <FaSquareXTwitter/>
+                <FaSquareXTwitter />
               </a>
             </li>
             <li>
@@ -90,19 +91,9 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="text-2xl text-slate-300"
               >
-                <FaGithub/>
+                <FaGithub />
               </a>
             </li>
-            {/* <li>
-              <a
-                href="https://leetcode.com/u/kdgehlot2003/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-2xl text-slate-300"
-              >
-                <i className="ion-code"></i>
-              </a>
-            </li> */}
           </ul>
         </div>
         <div className="w-full lg:w-2/3" data-aos="fade-up">

@@ -27,31 +27,31 @@ const Header = () => {
 
   return (
     <div className="flex justify-center">
-      <div className={`w-full lg:w-[40rem] ${isHidden ? '-mt-24' : 'mt-9'} fixed top-0 left-0 right-0 m-auto border border-gray-200 z-50 rounded-full transition-all duration-500`}>
+      <div className={`w-full sm:w-auto ${isHidden ? '-mt-24' : 'mt-9'} fixed top-0 left-0 right-0 m-auto border border-gray-200 z-50 rounded-full transition-all duration-500`}>
         <header>
           <nav>
-            <ul className="inline-block p-2 lg:p-4 xl:p-[18px] mb-0 list-none flex flex-wrap justify-center">
-              <li className="inline-block m-1 lg:m-2 xl:m-2.5">
+            <ul className="p-2 lg:p-4 xl:p-[18px] mb-0 list-none flex flex-wrap justify-center">
+              <li className="m-1 lg:m-2 xl:m-2.5">
                 <Link href="#home" className="uppercase tracking-wide text-slate-200 text-xs lg:text-sm xl:text-base font-bold hover:text-primary focus:text-gray-200">
                   Home
                 </Link>
               </li>
-              <li className="inline-block m-1 lg:m-2 xl:m-2.5">
+              <li className="m-1 lg:m-2 xl:m-2.5">
                 <Link href="#skill" className="uppercase tracking-wide text-slate-200 text-xs lg:text-sm xl:text-base font-bold hover:text-primary focus:text-gray-400">
                   Skill
                 </Link>
               </li>
-              <li className="inline-block m-1 lg:m-2 xl:m-2.5">
+              <li className="m-1 lg:m-2 xl:m-2.5">
                 <Link href="#projects" className="uppercase tracking-wide text-slate-200 text-xs lg:text-sm xl:text-base font-bold hover:text-primary focus:text-gray-200">
                   Projects
                 </Link>
               </li>
-              <li className="inline-block m-1 lg:m-2 xl:m-2.5">
+              <li className="m-1 lg:m-2 xl:m-2.5">
                 <Link href="#education" className="uppercase tracking-wide text-slate-200 text-xs lg:text-sm xl:text-base font-bold hover:text-primary focus:text-gray-200">
                   Education
                 </Link>
               </li>
-              <li className="inline-block m-1 lg:m-2 xl:m-2.5">
+              <li className="m-1 lg:m-2 xl:m-2.5">
                 <Link href="#contact" className="uppercase tracking-wide text-slate-200 text-xs lg:text-sm xl:text-base font-bold hover:text-primary focus:text-gray-700">
                   Contact
                 </Link>
