@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   const paragraph = `
-    I'm currently a sophomore at IIIT Gwalior, where I'm deeply engaged in the world of technology and software development.
+    I'm currently a 3rd Year Undegraduate at IIIT Gwalior, where I'm deeply engaged in the world of technology and software development.
     My passion lies in crafting dynamic and responsive user interfaces as well as building robust, scalable backend systems.
     I am constantly expanding my skill set and am currently delving into DevOps practices.
     I'm on the lookout for internship opportunities where I can apply my skills and continue to grow as a developer.
-    When I'm not immersed in code, you'll find me enjoying competitive gaming, particularly BGMI and Valorant.
+    When I'm not immersed in code, you'll find me scrolling Twitter,LinkedIn And Youtube.
     I also have a keen interest in travel and love discovering new places and cultures.
     Feel free to reach out if you'd like to connect or discuss potential opportunities!
   `;
