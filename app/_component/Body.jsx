@@ -32,8 +32,8 @@ const Home = () => {
           </div>
           <div id="profilediv" className="mt-8  lg:mt-[-15rem] flex flex-col items-center lg:items-start">
             <img
-              src="../../ADIL.jpg"
-              width="400"
+              src="../../profilepic2.jpg"
+              width="500"
               className="img-responsive rounded-full"
               id="profilepic"
               alt=""
