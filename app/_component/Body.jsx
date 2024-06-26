@@ -40,7 +40,7 @@ const Home = () => {
               data-aos="fade-right"
               data-aos-delay="0"
             />
-            <div className="w-60 flex justify-center mt-8 space-x-6 mx-16">
+            <div className="w-60 flex justify-center mt-8 space-x-6 mx-11">
               <a href="www.linkedin.com/in/md-adil-b4674924b" target="_blank" rel="noopener noreferrer"><FaLinkedin className="text-4xl text-slate-200 hover:text-primary"/></a>
               <a href="https://x.com/Eyeaadil" target="_blank" rel="noopener noreferrer"><FaSquareXTwitter  className="text-4xl text-slate-200 hover:text-primary"/></a>
               <a href="https://github.com/eyeaadil" target="_blank" rel="noopener noreferrer"><FaGithub className="text-4xl text-slate-200 hover:text-primary"/></a>
