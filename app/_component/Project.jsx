@@ -3,6 +3,7 @@ import { ProjectCard } from './ProjectCard';
 
 const projects = [
   { id: 1, title: 'Gemini Recommondation Movie Website', image: '/icons/project1.jpg',github:"https://github.com/eyeaadil/GemStreamFlix" },
+  {id:2,title:'InterviewPrime',image:'/icons/project3.png',github:"https://gemini-mock-interview-app.vercel.app/"},
   { id: 2, title: 'Personal Portfolio', image: '/icons/project2.png',github:"https://github.com/eyeaadil/Personal-Portfolio" },
   // { id: 3, title: 'Project 3', image: '/icons/git-icon.png' },
   // Add more project objects as needed

@@ -10,7 +10,7 @@ const Home = () => {
       <div className="container mx-auto h-full px-4">
         <div className="mt-20 flex flex-col lg:flex-row items-center justify-center h-full gap-8 lg:gap-80 ">
           <div className="mt-28 text-center" data-aos="fade-up" data-aos-delay="0">
-            <h4 className="relative font-serif text-[#b1bde7] ml-10 text-4xl">
+            <h4 className="relative font-serif text-[#b1bde7]  text-4xl">
               Md Adil
             </h4>
             <h1 className="font-serif text-5xl lg:text-8xl leading-tight text-slate-200">
