@@ -39,8 +39,8 @@ const Skills = () => {
               ref={ref}
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              whileHover={{ scale: 1.1, boxShadow: '0px 4px 10px rgba(13, 148, 240, 0.94)' }} // Light blue shadow on hover
+              transition={{ duration: 0.9, delay: index * 0.1 }}
+              whileHover={{ scale: 1.3, boxShadow: '0px 10px 20px rgba(139,6,187, 0.98)' }} // Light blue shadow on hover
               whileTap={{ scale: 0.95 }} // Scale down on tap
             >
               <motion.img
@@ -49,7 +49,7 @@ const Skills = () => {
                 className="w-12 h-12 mb-2"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.9 }}
               />
               <motion.p
                 className="text-center text-sm"
